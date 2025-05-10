@@ -1,9 +1,9 @@
 document.getElementById("Konto").onclick = function goto_Konto(){
-    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/Login%20system/login.html";
+    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/Shop-Streak-App/Login%20system/login.html";
 }
 
 document.getElementById("Startseite").onclick = function go_to_Start(){
-    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/MAIN/main.html";
+    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/Shop-Streak-App/Login%20system/login.html";
 }
 document.getElementById("readdata").onclick = function readdata(){
     let email;
@@ -14,6 +14,7 @@ document.getElementById("readdata").onclick = function readdata(){
     let gpassword;
     email = document.getElementById("email").value;
     password = document.getElementById("password").value;
+
     if (email.length >= 7 && password.length >= 7){
         print_email = localStorage.setItem("Email",email);//email saved
         print_password = localStorage.setItem("password",password);// pw wurde gespcichert

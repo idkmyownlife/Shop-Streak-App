@@ -1,12 +1,12 @@
 document.getElementById("Konto").onclick = function goto_Konto(){
-    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/Login%20system/login.html";
+    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/Shop-Streak-App/Login%20system/login.html";
 }
 
 document.getElementById("Startseite").onclick = function go_to_Start(){
-    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/MAIN/main.html";
+    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/Shop-Streak-App/MAIN/main.html";
 }
 document.getElementById("sign_up").onclick = function sign_up(){
-    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/Login%20system/registry/registry.html";
+    window.location.href="file:///C:/Users/henri/Desktop/Shop%20Streak%20App/Shop-Streak-App/Login%20system/registry/registry.html";
 }
 let gemail;
 let gpassword;
